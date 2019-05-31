@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "690552000215",
+    "firebase_url": "https://collegeapp-bdcfd.firebaseio.com",
+    "project_id": "collegeapp-bdcfd",
+    "storage_bucket": "collegeapp-bdcfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690552000215:android:1b8fee29a0360c4e",
+        "android_client_info": {
+          "package_name": "kz.zhansaya.college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690552000215-698hvffp41eaeq52uuvlrj1loantnhab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJGAVBHuLrGFxiPKqMsJjnITXxMtDPvzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690552000215-698hvffp41eaeq52uuvlrj1loantnhab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

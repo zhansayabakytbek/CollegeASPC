@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_schedule"
+                android:icon="@drawable/ic_estimate"
+                android:title="Расписание"/>
+        <item
+                android:id="@+id/nav_bally"
+                android:icon="@drawable/ic_feedback"
+                android:title="Оценка"/>
+        <item
+                android:id="@+id/nav_Contact"
+                android:icon="@drawable/ic_agenda"
+                android:title="Контакты"/>
+        <item
+                android:id="@+id/nav_college"
+                android:icon="@drawable/ic_university"
+                android:title="Об колледже"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_website"
+                    android:icon="@drawable/ic_www"
+                    android:title="ASPK"/>
+            <item
+                    android:id="@+id/nav_instagram"
+                    android:icon="@drawable/ic_instagram_logo"
+                    android:title="PolitechAlmaty"/>
+
+        </menu>
+    </item>
+
+</menu>

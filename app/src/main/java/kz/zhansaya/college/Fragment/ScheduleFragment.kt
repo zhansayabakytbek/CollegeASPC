@@ -9,6 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.fragment_schedule.*
 import kz.zhansaya.college.Activities.GrafikActivity
+import kz.zhansaya.college.Activities.ScheduleFirstActivity
+import kz.zhansaya.college.Activities.ScheduleSecondActivity
 
 import kz.zhansaya.college.R
 
@@ -41,11 +43,11 @@ class ScheduleFragment : Fragment() {
         }
 
         photo_scedulfirst.setOnClickListener {
-            val intent = Intent(context, GrafikActivity::class.java)
+            val intent = Intent(context, ScheduleFirstActivity::class.java)
             startActivity(intent)
         }
         photo_schedul.setOnClickListener {
-            val intent = Intent(context, GrafikActivity::class.java)
+            val intent = Intent(context, ScheduleSecondActivity::class.java)
             startActivity(intent)
         }
     }

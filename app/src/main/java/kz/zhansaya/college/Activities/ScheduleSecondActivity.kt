@@ -25,7 +25,7 @@ class ScheduleSecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_schedule_second)
-        val draw = resources.getDrawable(R.drawable.scedule1)
+        val draw = resources.getDrawable(R.drawable.schedulesecond)
         photo_schedule_second_photo.setImageDrawable(draw)
 
 
